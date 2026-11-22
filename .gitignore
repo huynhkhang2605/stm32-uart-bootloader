@@ -1,0 +1,24 @@
+# Ket quq build cua CubeIDE
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.map
+*.su
+*.cyclo
+*.list
+
+# File nhi phan: bo het, chi giu file mau
+*.bin
+!firmware_samples/*.bin
+
+# Cau hinh rieng tung may
+.settings/
+.metadata/
+*.launch
+
+# Python va he dieu hanh
+__pycache__/
+*.pyc
+Thumbs.db
